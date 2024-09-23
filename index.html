@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -73,6 +73,33 @@
         footer a {
             color: #ffff;
             text-decoration: none;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            .main-content h2 {
+                font-size: 1.5em;
+            }
+            .cta {
+                padding: 10px;
+                font-size: 1em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+            .main-content h2 {
+                font-size: 1.2em;
+            }
+            .cta {
+                padding: 8px;
+                font-size: 0.9em;
+            }
         }
     </style>
 </head>
